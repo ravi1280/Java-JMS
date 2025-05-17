@@ -15,9 +15,9 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>org.glassfish.main.extras</groupId>
-            <artifactId>glassfish-embedded-all</artifactId>
-            <version>7.0.13</version>
+            <groupId>fish.payara.extras</groupId>
+            <artifactId>payara-embedded-all</artifactId>
+            <version>6.2025.4</version>
         </dependency>
     </dependencies>
 
