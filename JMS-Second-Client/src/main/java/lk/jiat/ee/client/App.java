@@ -42,6 +42,7 @@ public class App {
                     try {
                         String msg =message.getBody(String.class);
                         System.out.println(msg);
+//                        message.acknowledge();
                     } catch (JMSException e) {
                         throw new RuntimeException(e);
                     }

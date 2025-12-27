@@ -18,7 +18,7 @@ public class TopicSender {
 
             TopicSession session = connection.createTopicSession(false, Session.AUTO_ACKNOWLEDGE);
 
-            System.out.println("Session:-  " + session);
+            System.out.println("Session:-   " + session);
 
             Topic topic = (Topic) context.lookup("jms/MyTopic");
             TopicPublisher publisher = session.createPublisher(topic);
